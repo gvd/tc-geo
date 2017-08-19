@@ -1,0 +1,3 @@
+[submodule "tc-shared"]
+	path = tc-shared
+	url = https://github.com/gvd/tc-shared.git
