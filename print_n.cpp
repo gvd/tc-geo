@@ -4,7 +4,8 @@
 
 namespace tc {
     void print_n(int n) {
+        if (n == 0) return;
         print(n);
-        if (n > 0) print_n(n - 1);
+        print_n(n - 1);
     }
 }
